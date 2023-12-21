@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3f9c54-eeb0-4643-be93-00d326954c8a" name="Changes" comment="Initial" />
+    <list default="true" id="c57caa60-24f2-4d06-a347-fddb31cb344e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_01/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_02/HomePageInteractionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_03/UserPageInteractionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_04/CreatePostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_05/ProfileInteractionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_TestBase/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +33,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  "associatedIndex": 1
 }]]></component>
-  <component name="ProjectId" id="2ZrfVOsPJFI3im7haFJCb6q1mN1" />
+  <component name="ProjectId" id="2ZrhQns9wRHTcBQePNXi0JO5Ns3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,45 +46,61 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/valentin/IdeaProjects/Selenium_Automation_Framework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/valentin/IdeaProjects/Selenium_Automation_Framework/src/main/java/Maven/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="/Users/valentin/IdeaProjects/Selenium_Automation_Framework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Automation_Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/valentin/IdeaProjects/Selenium_Automation_Framework/testng.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff3f9c54-eeb0-4643-be93-00d326954c8a" name="Changes" comment="" />
-      <created>1703185141872</created>
+      <changelist id="c57caa60-24f2-4d06-a347-fddb31cb344e" name="Changes" comment="" />
+      <created>1703186094851</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1703185141872</updated>
-      <workItem from="1703185143162" duration="475000" />
+      <updated>1703186094851</updated>
+      <workItem from="1703186096420" duration="823000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial">
-      <option name="closed" value="true" />
-      <created>1703185524387</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1703185524387</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
 </project>
