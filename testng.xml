@@ -1,0 +1,31 @@
+<suite name="Web Test Suite" parallel="methods" thread-count="1">
+    <test name="Tests">
+        <classes>
+            <class name="TC_01.LoginTest">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+            <class name="TC_02.HomePageInteractionsTest">
+                <methods>
+                    <include name="testHomePage"/>
+                </methods>
+            </class>
+            <class name="TC_03.UserPageInteractionsTest">
+                <methods>
+                    <include name="testUserPage"/>
+                </methods>
+            </class>
+            <class name="TC_04.CreatePostTest">
+                <methods>
+                    <include name="testNewPost"/>
+                </methods>
+            </class>
+            <class name="TC_05.ProfileInteractionsTest">
+                <methods>
+                    <include name="testProfileInteractions"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

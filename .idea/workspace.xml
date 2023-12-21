@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fcc179a-3216-43d5-8f11-09516a2fb63b" name="Changes" comment="screenshots after test failure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Uploads/First__Post_Image.jpeg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d54aaf57-39dc-4ba1-9c47-83a614224a8b" />
+        <option name="url" value="https://github.com/vvvelkov/Selenium-Automation-Framework.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ZONLW0B0Icz5fWFlLv4bQbsfEO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/valentin/IdeaProjects/Maven-Automation-Framework/src/main/java/Framework_Methods&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/valentin/IdeaProjects/Maven-Automation-Framework/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Framework_Methods" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Uploads" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTest">
+    <configuration name="CreatePostTest.testNewPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Automation-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TC_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TC_04" />
+      <option name="MAIN_CLASS_NAME" value="TC_04.CreatePostTest" />
+      <option name="METHOD_NAME" value="testNewPost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Automation-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TC_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TC_01" />
+      <option name="MAIN_CLASS_NAME" value="TC_01.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileInteractionsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Automation-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TC_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TC_05" />
+      <option name="MAIN_CLASS_NAME" value="TC_05.ProfileInteractionsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileInteractionsTest.testProfileInteractions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Automation-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TC_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TC_05" />
+      <option name="MAIN_CLASS_NAME" value="TC_05.ProfileInteractionsTest" />
+      <option name="METHOD_NAME" value="testProfileInteractions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/valentin/IdeaProjects/Maven-Automation-Framework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Automation-Framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.ProfileInteractionsTest.testProfileInteractions" />
+        <item itemvalue="TestNG./Users/valentin/IdeaProjects/Maven-Automation-Framework/testng.xml" />
+        <item itemvalue="TestNG.ProfileInteractionsTest" />
+        <item itemvalue="TestNG.CreatePostTest.testNewPost" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fcc179a-3216-43d5-8f11-09516a2fb63b" name="Changes" comment="" />
+      <created>1702289110221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702289110221</updated>
+      <workItem from="1702289111336" duration="929000" />
+      <workItem from="1702290190020" duration="7438000" />
+      <workItem from="1702404406721" duration="7299000" />
+      <workItem from="1702484058608" duration="22835000" />
+      <workItem from="1702576814093" duration="33881000" />
+      <workItem from="1702815185797" duration="1562000" />
+      <workItem from="1702817068472" duration="17000" />
+      <workItem from="1702817184771" duration="210000" />
+      <workItem from="1702819809463" duration="915000" />
+      <workItem from="1703182983721" duration="1091000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Two Test Cases">
+      <option name="closed" value="true" />
+      <created>1702292381005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702292381005</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Two Test Cases">
+      <option name="closed" value="true" />
+      <created>1702318311537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702318311537</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding Page Factory">
+      <option name="closed" value="true" />
+      <created>1702413089723</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702413089723</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding Two More Test Cases">
+      <option name="closed" value="true" />
+      <created>1702509928859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702509928859</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Final commit">
+      <option name="closed" value="true" />
+      <created>1702761000809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702761000809</updated>
+    </task>
+    <task id="LOCAL-00006" summary="screenshots after test failure">
+      <option name="closed" value="true" />
+      <created>1702816729292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702816729292</updated>
+    </task>
+    <task id="LOCAL-00007" summary="screenshots after test failure">
+      <option name="closed" value="true" />
+      <created>1702816748208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702816748208</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Selenium-Automation-Framework/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Two Test Cases" />
+    <MESSAGE value="Adding Page Factory" />
+    <MESSAGE value="Adding Two More Test Cases" />
+    <MESSAGE value="Final commit" />
+    <MESSAGE value="screenshots after test failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="screenshots after test failure" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Framework_Methods/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
