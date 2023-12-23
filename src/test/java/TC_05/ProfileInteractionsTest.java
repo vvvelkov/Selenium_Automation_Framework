@@ -1,23 +1,26 @@
 package TC_05;
 
 import Framework_Methods.Header;
-import Framework_Methods.HomePage;
 import Framework_Methods.LoginPage;
 import Framework_Methods.ProfilePage;
-import TC_01.LoginTest;
 import _TestBase.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
+
+
+import java.io.File;
 
 public class ProfileInteractionsTest extends TestBase {
     private WebDriver driver;
 
     @DataProvider(name = "getUsers")
     public Object[][] getUsers() {
+
         String email = "BlaBlaBlo@abv.bg";
         String password = "111111A";
         String name = "BlaBlaBlo";
+
         return new Object[][]{
                 {email, password, name},
         };
@@ -45,17 +48,17 @@ public class ProfileInteractionsTest extends TestBase {
         //Verify Logged in user text matches data provider
         Assert.assertEquals(profilePage.getUsername(), name, "Username does not match");
 
-        //Verify there are posts
-        Assert.assertEquals(profilePage.getPostsCount(), "0", "There is no posts yet");
-
         //Verify there are followers
-        Assert.assertEquals(profilePage.getFollowersCount(), "0", "Nobody follows the user yet");
+        Assert.assertNotEquals(profilePage.getFollowersCount(), "0", "Nobody follows the user yet");
 
         //Verify current user follows other users
-        Assert.assertEquals(profilePage.getFollowingCount(), "0", "Current user does not follow other user yet");
+        Assert.assertNotEquals(profilePage.getFollowingCount(), "0", "Current user does not follow other user yet");
 
         //Verify current user follows other users
-        Assert.assertEquals(profilePage.getDescription(), "", "Current user does not have description yet");
+        Assert.assertNotEquals(profilePage.getDescription(), "", "Current user does not have description yet");
+
+        //Verify there are posts
+        Assert.assertNotEquals(profilePage.getPostsCount(), "0", "There is no posts yet");
 
         //Open all posts
         profilePage.clickAllPostsLink();

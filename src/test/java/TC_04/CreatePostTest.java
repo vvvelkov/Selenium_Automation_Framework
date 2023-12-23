@@ -1,11 +1,9 @@
 package TC_04;
 
 import Framework_Methods.*;
-import TC_01.LoginTest;
 import _TestBase.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.FileAssert;
 import org.testng.annotations.*;
 
 import java.io.File;
@@ -45,7 +43,6 @@ public class CreatePostTest extends TestBase {
 
         //Verify we are on New Post Page
         newPostPage.isUrlLoaded();
-
 
         //Upload image
         newPostPage.uploadImage(postImage);

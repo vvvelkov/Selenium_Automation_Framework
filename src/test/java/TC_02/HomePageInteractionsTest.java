@@ -3,11 +3,8 @@ package TC_02;
 import Framework_Methods.Header;
 import Framework_Methods.HomePage;
 import Framework_Methods.LoginPage;
-import Framework_Methods.UserPage;
-import TC_01.LoginTest;
 import _TestBase.TestBase;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class HomePageInteractionsTest extends TestBase {

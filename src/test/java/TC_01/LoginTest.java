@@ -3,7 +3,6 @@ package TC_01;
 import Framework_Methods.Header;
 import Framework_Methods.HomePage;
 import Framework_Methods.LoginPage;
-import Framework_Methods.ProfilePage;
 import _TestBase.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
