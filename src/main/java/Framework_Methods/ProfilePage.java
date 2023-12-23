@@ -49,6 +49,8 @@ public class ProfilePage {
     @FindBy(className = "btn-all")
     private WebElement allPostsLink;
 
+    @FindBy(css = ".fa-plus-square")
+    private WebElement newPostLink;
     public static final String PAGE_URL = "http://training.skillo-bg.com:4200/users/";
 
     public ProfilePage(WebDriver driver) {
@@ -118,4 +120,11 @@ public class ProfilePage {
         wait.until(ExpectedConditions.elementToBeClickable(allPostsLink));
         allPostsLink.click();
     }
+
+    public void clickNewPostLink(){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+        wait.until(ExpectedConditions.elementToBeClickable(newPostLink));
+        newPostLink.click();
+    }
+
 }

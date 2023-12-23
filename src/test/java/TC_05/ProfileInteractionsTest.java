@@ -2,6 +2,7 @@ package TC_05;
 
 import Framework_Methods.Header;
 import Framework_Methods.LoginPage;
+import Framework_Methods.NewPostPage;
 import Framework_Methods.ProfilePage;
 import _TestBase.TestBase;
 import org.openqa.selenium.WebDriver;
@@ -17,17 +18,19 @@ public class ProfileInteractionsTest extends TestBase {
     @DataProvider(name = "getUsers")
     public Object[][] getUsers() {
 
+        File postImage = new File("src/main/resources/Uploads/First_Post_Image.jpeg");
+        String caption = "Hello there. This is my first post!";
         String email = "BlaBlaBlo@abv.bg";
         String password = "111111A";
         String name = "BlaBlaBlo";
 
         return new Object[][]{
-                {email, password, name},
+                {postImage, caption, email, password, name},
         };
     }
 
     @Test(dataProvider = "getUsers")
-    public void testProfileInteractions(String email, String password, String name) {
+    public void testProfileInteractions(File postImage, String caption, String email, String password, String name) {
 
         //Login Class
         LoginPage loginPage = new LoginPage(super.getDriver());
@@ -57,23 +60,44 @@ public class ProfileInteractionsTest extends TestBase {
         //Verify current user follows other users
         Assert.assertNotEquals(profilePage.getDescription(), "", "Current user does not have description yet");
 
-        //Skip following steps if posts = 0
-        if(!(profilePage.getPostsCount().equals("0"))) {
-            //Open all posts
-            profilePage.clickAllPostsLink();
+        //Redirect to New Post Page
+        profilePage.clickNewPostLink();
 
-            //Open first post
-            profilePage.openFirstPost();
+        //New Post Page Class
+        NewPostPage newPostPage = new NewPostPage(super.getDriver());
 
-            //Make the first post private
-            profilePage.makePostPrivate();
+        //Verify we are on New Post Page
+        newPostPage.isUrlLoaded();
 
-            //Click on delete post
-            profilePage.clickDeleteLink();
+        //Upload image
+        newPostPage.uploadImage(postImage);
 
-            //Click on refuse deletion button, which actually deletes the post
-            profilePage.refuseDeletion();
-        }
+        //Add description of the post
+        newPostPage.enterPostCaption(caption);
+
+        //Create the post
+        newPostPage.createPost();
+
+        //Verify there is at least one post
+        Assert.assertNotEquals(profilePage.getPostsCount(), "0", "There is no posts yet");
+
+        //Check if user page with new post is loaded
+        profilePage.isUrlLoaded();
+
+        //Open all posts
+        profilePage.clickAllPostsLink();
+
+        //Open first post
+        profilePage.openFirstPost();
+
+        //Make the first post private
+        profilePage.makePostPrivate();
+
+        //Click on delete post
+        profilePage.clickDeleteLink();
+
+        //Click on refuse deletion button, which actually deletes the post
+        profilePage.refuseDeletion();
 
     }
 }
