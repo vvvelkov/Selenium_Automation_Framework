@@ -13,16 +13,16 @@ import java.time.Duration;
 public class UserPage {
     private final WebDriver driver;
 
-    @FindBy(className = "profile-edit-btn")
+    @FindBy(css = ".profile-edit-btn")
     private WebElement followButton;
 
-    @FindBy(className = "btn-all")
+    @FindBy(css = ".btn-all")
     private WebElement allPostsButton;
 
-    @FindBy(xpath = "(//*[@class = \"post-feed-img\"])[1]")
+    @FindBy(css = ".app-post:first-of-type")
     private WebElement firstPost;
 
-    @FindBy(className = "post-date")
+    @FindBy(css = ".post-date")
     private WebElement postDate;
 
     @FindBy(css = "i.like")
@@ -34,11 +34,14 @@ public class UserPage {
     @FindBy(css = "[formcontrolname = content]")
     private WebElement commentSection;
 
-    @FindBy(className = "profile-edit-btn")
+    @FindBy(css = ".profile-edit-btn")
     private WebElement unfollowButton;
 
     @FindBy(className = "post-user")
     private WebElement postUser;
+
+    @FindBy(css = ".btn-all")
+    private WebElement allPostsLink;
 
     public UserPage(WebDriver driver) {
         this.driver = driver;
@@ -48,6 +51,12 @@ public class UserPage {
     public void verifyUserPageOpened(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
         wait.until(ExpectedConditions.urlContains("http://training.skillo-bg.com:4200/users"));
+    }
+
+    public void clickAllPostsLink(){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+        wait.until(ExpectedConditions.elementToBeClickable(allPostsLink));
+        allPostsLink.click();
     }
 
     public void followUser(){
