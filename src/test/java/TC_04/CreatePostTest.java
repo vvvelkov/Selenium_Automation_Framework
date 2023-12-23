@@ -16,7 +16,7 @@ public class CreatePostTest extends TestBase {
     @DataProvider(name = "getUsers")
     public Object[][] getUsers() {
 
-        File postImage = new File("src/main/resources/Uploads/First__Post_Image.jpeg");
+        File postImage = new File("src/main/resources/Uploads/First_Post_Image.jpeg");
         String caption = "Hello there. This is my first post!";
         String email = "BlaBlaBlo@abv.bg";
         String password = "111111A";

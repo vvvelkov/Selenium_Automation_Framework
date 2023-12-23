@@ -43,22 +43,19 @@ public class ProfileInteractionsTest extends TestBase {
         profilePage.isUrlLoaded();
 
         //Verify Logged in user text matches data provider
-        Assert.assertEquals(profilePage.getUsername(), name);
+        Assert.assertEquals(profilePage.getUsername(), name, "Username does not match");
 
-        //Print username
-        System.out.println("Username " + profilePage.getUsername() + " has:");
+        //Verify there are posts
+        Assert.assertEquals(profilePage.getPostsCount(), "0", "There is no posts yet");
 
-        //Print number of posts
-        System.out.println(profilePage.getPostsCount() + " posts");
+        //Verify there are followers
+        Assert.assertEquals(profilePage.getFollowersCount(), "0", "Nobody follows the user yet");
 
-        //Print number of followers
-        System.out.println(profilePage.getFollowersCount());
+        //Verify current user follows other users
+        Assert.assertEquals(profilePage.getFollowingCount(), "0", "Current user does not follow other user yet");
 
-        //Print number of people following
-        System.out.println(profilePage.getFollowingCount());
-
-        //Print the profile description
-        System.out.println("with a description: " + profilePage.getDescription());
+        //Verify current user follows other users
+        Assert.assertEquals(profilePage.getDescription(), "", "Current user does not have description yet");
 
         //Open all posts
         profilePage.clickAllPostsLink();
