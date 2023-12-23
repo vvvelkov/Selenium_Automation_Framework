@@ -1,10 +1,13 @@
-package TC_04;
+package TC_05;
 
-import Framework_Methods.*;
+import Framework_Methods.Header;
+import Framework_Methods.LoginPage;
+import Framework_Methods.NewPostPage;
 import _TestBase.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 import java.io.File;
 

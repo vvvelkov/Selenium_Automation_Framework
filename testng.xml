@@ -16,12 +16,12 @@
                     <include name="testUserPage"/>
                 </methods>
             </class>
-            <class name="TC_04.CreatePostTest">
+            <class name="TC_04.ProfileInteractionsTest">
                 <methods>
                     <include name="testNewPost"/>
                 </methods>
             </class>
-            <class name="TC_05.ProfileInteractionsTest">
+            <class name="TC_05.CreatePostTest">
                 <methods>
                     <include name="testProfileInteractions"/>
                 </methods>

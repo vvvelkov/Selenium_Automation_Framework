@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c57caa60-24f2-4d06-a347-fddb31cb344e" name="Changes" comment="Adding if statement for posts">
+    <list default="true" id="c57caa60-24f2-4d06-a347-fddb31cb344e" name="Changes" comment="Final commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework_Methods/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework_Methods/ProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Screenshots/testProfileInteractions.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC_05/ProfileInteractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_05/ProfileInteractionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Screenshots/First_Post_Image.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TC_04/CreatePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_05/CreatePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TC_05/ProfileInteractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_04/ProfileInteractionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +76,12 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TC_05" />
+      <recent name="TC_04" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.ProfileInteractionsTest.testProfileInteractions">
+  <component name="RunManager" selected="TestNG./Users/valentin/IdeaProjects/Selenium_Automation_Framework/testng.xml">
     <configuration name="CreatePostTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation_Framework" />
       <extension name="coverage">
@@ -141,8 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProfileInteractionsTest.testProfileInteractions" />
         <item itemvalue="TestNG./Users/valentin/IdeaProjects/Selenium_Automation_Framework/testng.xml" />
+        <item itemvalue="TestNG.ProfileInteractionsTest.testProfileInteractions" />
         <item itemvalue="TestNG.CreatePostTest (1)" />
         <item itemvalue="TestNG.CreatePostTest" />
       </list>
@@ -159,7 +164,7 @@
       <workItem from="1703186096420" duration="823000" />
       <workItem from="1703187935203" duration="36000" />
       <workItem from="1703331599065" duration="9118000" />
-      <workItem from="1703342001342" duration="705000" />
+      <workItem from="1703342001342" duration="2934000" />
     </task>
     <task id="LOCAL-00001" summary="Adding assertions about user info">
       <option name="closed" value="true" />
@@ -201,7 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703341555382</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Final commit">
+      <option name="closed" value="true" />
+      <created>1703342987286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703342987286</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Final commit">
+      <option name="closed" value="true" />
+      <created>1703343039414</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703343039414</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +233,7 @@
     <MESSAGE value="Adding Screenshots directory" />
     <MESSAGE value="Adding assertions" />
     <MESSAGE value="Adding if statement for posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding if statement for posts" />
+    <MESSAGE value="Final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
   </component>
 </project>
