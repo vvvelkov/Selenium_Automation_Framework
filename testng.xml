@@ -18,12 +18,12 @@
             </class>
             <class name="TC_04.ProfileInteractionsTest">
                 <methods>
-                    <include name="testNewPost"/>
+                    <include name="testProfileInteractions"/>
                 </methods>
             </class>
             <class name="TC_05.CreatePostTest">
                 <methods>
-                    <include name="testProfileInteractions"/>
+                    <include name="testNewPost"/>
                 </methods>
             </class>
         </classes>
