@@ -43,7 +43,7 @@ public class UserPageInteractionsTest extends TestBase {
         userPage.followUser();
 
         //Open first post
-        userPage.openSecondPost();
+        userPage.openFirstPost();
 
         //Verify that we are on the post page
         userPage.verifyPostPageOpened();
