@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c57caa60-24f2-4d06-a347-fddb31cb344e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Uploads/First_Post_Image.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Screenshots/testLogin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC_04/CreatePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_04/CreatePostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC_05/ProfileInteractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_05/ProfileInteractionsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c57caa60-24f2-4d06-a347-fddb31cb344e" name="Changes" comment="Adding assertions about user info" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,11 +101,24 @@
       <updated>1703186094851</updated>
       <workItem from="1703186096420" duration="823000" />
       <workItem from="1703187935203" duration="36000" />
-      <workItem from="1703331599065" duration="2748000" />
+      <workItem from="1703331599065" duration="3162000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding assertions about user info">
+      <option name="closed" value="true" />
+      <created>1703334757828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703334757829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding assertions about user info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding assertions about user info" />
   </component>
 </project>
