@@ -34,10 +34,10 @@ public class ProfilePage {
     @FindBy(css = "div.icons-container > i[class*=\"ng-star-inserted\"]")
     private WebElement lockButton;
 
-    @FindBy(className = "post-user")
+    @FindBy(css = ".post-user")
     private WebElement postUserLink;
 
-    @FindBy(className = "delete-ask")
+    @FindBy(css = ".delete-ask")
     private WebElement deleteButton;
 
     @FindBy(xpath = "//button[text()=\"Yes\"]")

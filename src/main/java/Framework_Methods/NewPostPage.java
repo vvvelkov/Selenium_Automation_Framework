@@ -32,7 +32,7 @@ public class NewPostPage {
     @FindBy(name = "caption")
     private WebElement postCaption;
 
-    @FindBy(className = "custom-control-label")
+    @FindBy(css = ".custom-control-label")
     private WebElement postStatusLabel;
 
     @FindBy(id = "create-post")

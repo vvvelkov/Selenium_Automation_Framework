@@ -22,7 +22,7 @@ public class Header {
     @FindBy(id = "nav-link-new-post")
     private WebElement newPostLink;
 
-    @FindBy(className = "fa-sign-out-alt")
+    @FindBy(css = ".fa-sign-out-alt")
     private WebElement signOutLink;
 
     @FindBy(id = "search-bar")

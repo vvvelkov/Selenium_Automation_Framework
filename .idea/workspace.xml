@@ -81,7 +81,7 @@
       <recent name="TC_04" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UserPageInteractionsTest.testUserPage">
+  <component name="RunManager" selected="TestNG./Users/valentin/IdeaProjects/Selenium_Automation_Framework/testng.xml">
     <configuration name="CreatePostTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation_Framework" />
       <extension name="coverage">
@@ -164,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UserPageInteractionsTest.testUserPage" />
         <item itemvalue="TestNG./Users/valentin/IdeaProjects/Selenium_Automation_Framework/testng.xml" />
+        <item itemvalue="TestNG.UserPageInteractionsTest.testUserPage" />
         <item itemvalue="TestNG.ProfileInteractionsTest.testProfileInteractions" />
         <item itemvalue="TestNG.CreatePostTest (1)" />
         <item itemvalue="TestNG.CreatePostTest" />

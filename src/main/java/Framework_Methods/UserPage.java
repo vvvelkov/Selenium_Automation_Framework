@@ -37,7 +37,7 @@ public class UserPage {
     @FindBy(css = ".profile-edit-btn")
     private WebElement unfollowButton;
 
-    @FindBy(className = "post-user")
+    @FindBy(css = ".post-user")
     private WebElement postUser;
 
     @FindBy(css = ".btn-all")
