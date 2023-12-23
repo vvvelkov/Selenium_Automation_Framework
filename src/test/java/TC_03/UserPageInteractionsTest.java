@@ -42,6 +42,8 @@ public class UserPageInteractionsTest extends TestBase {
         //Follow the user
         userPage.followUser();
 
+        userPage.verifyUserPageOpened();
+
         //Open all posts
         userPage.clickAllPostsLink();
 
