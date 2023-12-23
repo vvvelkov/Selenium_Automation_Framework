@@ -46,7 +46,7 @@ public class ProfilePage {
     @FindBy(xpath = "//button[text()=\"No\"]")
     private WebElement deleteButtonNo;
 
-    @FindBy(className = "btn-all")
+    @FindBy(css = ".btn-all")
     private WebElement allPostsLink;
 
     @FindBy(css = ".fa-plus-square")
