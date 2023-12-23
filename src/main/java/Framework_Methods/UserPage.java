@@ -19,8 +19,8 @@ public class UserPage {
     @FindBy(className = "btn-all")
     private WebElement allPostsButton;
 
-    @FindBy(css = "app-post.col-4:first-of-type")
-    private WebElement firstPost;
+    @FindBy(xpath = "(//*[@class = \"post-feed-img\"])[2]")
+    private WebElement secondPost;
 
     @FindBy(className = "post-date")
     private WebElement postDate;
@@ -56,10 +56,10 @@ public class UserPage {
         followButton.click();
     }
 
-    public void openPost(){
+    public void openSecondPost(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
-        wait.until(ExpectedConditions.elementToBeClickable(firstPost));
-        firstPost.click();
+        wait.until(ExpectedConditions.elementToBeClickable(secondPost));
+        secondPost.click();
     }
 
     public void verifyPostPageOpened(){
