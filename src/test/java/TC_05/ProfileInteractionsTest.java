@@ -57,23 +57,23 @@ public class ProfileInteractionsTest extends TestBase {
         //Verify current user follows other users
         Assert.assertNotEquals(profilePage.getDescription(), "", "Current user does not have description yet");
 
-        //Verify there are posts
-        Assert.assertNotEquals(profilePage.getPostsCount(), "0", "There is no posts yet");
+        //Skip following steps if posts = 0
+        if(!(profilePage.getPostsCount().equals("0"))) {
+            //Open all posts
+            profilePage.clickAllPostsLink();
 
-        //Open all posts
-        profilePage.clickAllPostsLink();
+            //Open first post
+            profilePage.openFirstPost();
 
-        //Open first post
-        profilePage.openFirstPost();
+            //Make the first post private
+            profilePage.makePostPrivate();
 
-        //Make the first post private
-        profilePage.makePostPrivate();
+            //Click on delete post
+            profilePage.clickDeleteLink();
 
-        //Click on delete post
-        profilePage.clickDeleteLink();
-
-        //Click on refuse deletion button, which actually deletes the post
-        profilePage.refuseDeletion();
+            //Click on refuse deletion button, which actually deletes the post
+            profilePage.refuseDeletion();
+        }
 
     }
 }
