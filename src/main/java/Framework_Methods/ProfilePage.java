@@ -1,5 +1,6 @@
 package Framework_Methods;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -117,14 +118,9 @@ public class ProfilePage {
 
     public void clickAllPostsLink(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
-        wait.until(ExpectedConditions.elementToBeClickable(allPostsLink));
+        wait.until(ExpectedConditions.elementToBeClickable(allPostsLink));;
+        allPostsLink.sendKeys(Keys.ENTER);
         allPostsLink.click();
-    }
-
-    public void clickNewPostLink(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
-        wait.until(ExpectedConditions.elementToBeClickable(newPostLink));
-        newPostLink.click();
     }
 
 }

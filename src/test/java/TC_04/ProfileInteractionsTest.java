@@ -61,7 +61,7 @@ public class ProfileInteractionsTest extends TestBase {
         Assert.assertNotEquals(profilePage.getDescription(), "", "Current user does not have description yet");
 
         //Redirect to New Post Page
-        profilePage.clickNewPostLink();
+        headerMenu.clickNewPostLink();
 
         //New Post Page Class
         NewPostPage newPostPage = new NewPostPage(super.getDriver());
